@@ -1,0 +1,10 @@
+# King
+@char k avatar:k/Default
+k: Hello [i] I Have big dick.
+h: Incredible [i] I want to see!
+k: Sure?[skipInput]
+@choice "Show me" goto:Novel
+@choice "Nevermind"
+@stop
+k: See ya!
+@Adventure reset:false

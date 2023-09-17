@@ -156,7 +156,7 @@ MonoBehaviour:
       guid: f5aae572225ee1b4c96d1a17fc5cb073
     - name: TitleUI
       pathPrefix: UI
-      guid: 4b121aa1be1b7e04480b452c595ff17a
+      guid: 06a0fd6e799b75447926808e4ac229c9
     - name: VariableInputUI
       pathPrefix: UI
       guid: bb95f484e341dcd4391a572f22b7d067
@@ -166,3 +166,33 @@ MonoBehaviour:
     - name: ToastUI
       pathPrefix: UI
       guid: dd85ce99288c2f8488447fa511b1c0d6
+  - Id: Scripts
+    Resources:
+    - name: King
+      pathPrefix: Scripts
+      guid: 595616c03e0fb874294181f3124d9e74
+  - Id: CharacterAvatars
+    Resources:
+    - name: k/Default
+      pathPrefix: CharacterAvatars
+      guid: 2533d6fbfa266704798c5a3a6c41a3b5
+    - name: h/Default
+      pathPrefix: CharacterAvatars
+      guid: dbc762ea5a3f00f42adbb695a9722c4b
+  - Id: Characters/8c6585d2-05e2-498f-aebe-d80ce2e32b9c
+    Resources:
+    - name: King
+      pathPrefix: Characters/k
+      guid: 2533d6fbfa266704798c5a3a6c41a3b5
+  - Id: Backgrounds/8399c7a4-e373-4a34-b666-f91f5ea52f92
+    Resources:
+    - name: Throne
+      pathPrefix: Backgrounds/MainBackground
+      guid: ae652373df20f8347acaefd92fabe13e
+  - Id: TextPrinters/29f3d931-634b-487c-a6e4-6f7a05e60a5c
+    Resources:
+    - name: Adventure
+      pathPrefix: TextPrinters
+      guid: fa15c88c980477146bdece0b166e1df1
+  - Id: Characters/da646791-2e56-4bc7-8654-a132406c7dc6
+    Resources: []
