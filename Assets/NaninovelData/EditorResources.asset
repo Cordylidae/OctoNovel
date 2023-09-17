@@ -171,6 +171,9 @@ MonoBehaviour:
     - name: King
       pathPrefix: Scripts
       guid: 595616c03e0fb874294181f3124d9e74
+    - name: StartScript
+      pathPrefix: Scripts
+      guid: b0c75d91bcd93be40ab75887b5b06897
   - Id: CharacterAvatars
     Resources:
     - name: k/Default
