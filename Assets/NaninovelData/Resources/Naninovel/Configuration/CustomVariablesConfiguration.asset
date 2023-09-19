@@ -17,3 +17,27 @@ MonoBehaviour:
     value: '"Unknowed"'
   - name: playerInputName
     value: false
+  - name: questFlowerStart
+    value: false
+  - name: questFlowerEnd
+    value: false
+  - name: questFlower_part1_KingTalk
+    value: false
+  - name: questFlower_part2_QueenTalk
+    value: false
+  - name: questFlower_part3_FlowerTake
+    value: false
+  - name: questFlower_part4_FlowerGift
+    value: false
+  - name: giveFlower_Queen
+    value: false
+  - name: giveFlower_King
+    value: false
+  - name: giveFlower_Yourself
+    value: false
+  - name: haveTheKey
+    value: false
+  - name: haveTheFlower
+    value: false
+  - name: kingTalk
+    value: false

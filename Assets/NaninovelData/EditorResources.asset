@@ -17,7 +17,7 @@ MonoBehaviour:
     Resources:
     - name: Dialogue
       pathPrefix: TextPrinters
-      guid: 1bc08ccd31adff6439e97161aa6e1d8b
+      guid: 51729bf6ffb263641a3bd6b4cd8356b4
   - Id: TextPrinters/abfa2be2-77bf-4e71-b4ef-43f1607bef12
     Resources:
     - name: Fullscreen
@@ -172,6 +172,9 @@ MonoBehaviour:
     - name: MyHeroUI
       pathPrefix: UI
       guid: 115d887f606da034687790fc27208088
+    - name: BedroomUI
+      pathPrefix: UI
+      guid: 7845d1dbcdd8ee441a74de81760ecccc
   - Id: Scripts
     Resources:
     - name: King
@@ -189,6 +192,9 @@ MonoBehaviour:
     - name: Map
       pathPrefix: Scripts
       guid: 319bb44f191b72b4b8a20b8add8bc997
+    - name: Bedroom
+      pathPrefix: Scripts
+      guid: 20af16f8db1e8bc479bf40939cb301ee
   - Id: CharacterAvatars
     Resources:
     - name: k/Default

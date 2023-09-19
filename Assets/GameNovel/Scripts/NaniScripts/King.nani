@@ -1,12 +1,19 @@
 # King
-@back KingBedroom id:KingBedroom
-@char k avatar:k/Default
+@set kingTalk=true
+
+@back Bedroom id:Bedroom
+@hideUI BedroomUI
+@char k
+
 k: For the honor![i] Sunrise wake upping us. [i]
 I Have big dick.
 {name}: Incredible [i] I want to see!
 k: Sure? Maybe later[i],see ya!
 {name}: For the honor my king :)
+{name}: I'm going to Queen.
+
 @char k visible:false
-{name}: i'm going to Queen.
-@goto Queen
-@stop
+@hide Bedroom
+@set kingTalk=false
+
+@goto Bedroom

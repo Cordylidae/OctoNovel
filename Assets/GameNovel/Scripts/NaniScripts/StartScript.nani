@@ -11,4 +11,4 @@
 {name}: Goodmorning my King!!!.
 k: Hello my knight, sir {name}.
 @set playerInputName=true
-@goto King
+@goto Bedroom

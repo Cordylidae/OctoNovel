@@ -1,0 +1,4 @@
+@hideAll
+@showUI MyHeroUI
+@showUI BedroomUI
+@stop
