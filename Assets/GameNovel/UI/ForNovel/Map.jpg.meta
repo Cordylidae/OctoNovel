@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 2d8bd3a0b15bc5c479fccf1c5b2b2e90
+guid: df4eb1632db318e42af120fb289308cb
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -141,13 +141,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: LockAndMap_0
+      name: BedRoom
       rect:
         serializedVersion: 2
-        x: 4
-        y: 5
-        width: 134
-        height: 126
+        x: 279
+        y: 493
+        width: 112
+        height: 136
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -155,20 +155,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 508a2c27e1c709648921dad5fe936522
-      internalID: -625469536
+      spriteID: dd50991d3c98c634386371452a154f7d
+      internalID: -1826532641
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LockAndMap_1
+      name: Library
       rect:
         serializedVersion: 2
-        x: 154
-        y: 5
-        width: 109
-        height: 121
+        x: 111
+        y: 254
+        width: 74
+        height: 142
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -176,8 +176,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1173ebdc38adaa1419cf0597fb570944
-      internalID: 1455926740
+      spriteID: 78b634bb20774a34ba2e0acb122ca579
+      internalID: 874715895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wardrobe
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 297
+        width: 67
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc127e32b2080a747be6f251d0f6bd49
+      internalID: 513897790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MapFull
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 563
+        height: 654
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44c3f01e305063840953cd6fe735b12f
+      internalID: 83571105
       vertices: []
       indices: 
       edges: []
@@ -185,7 +227,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 9b7ec5aeb7149dc4bb2608dfa1497302
+    spriteID: 0a0ecac687778624f8e5105353b1e301
     internalID: 0
     vertices: []
     indices: 
@@ -193,8 +235,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      LockAndMap_0: -625469536
-      LockAndMap_1: 1455926740
+      BedRoom: -1826532641
+      Library: 874715895
+      MapFull: 83571105
+      Wardrobe: 513897790
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

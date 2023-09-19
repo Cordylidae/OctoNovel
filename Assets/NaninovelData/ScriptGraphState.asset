@@ -16,9 +16,9 @@ MonoBehaviour:
   - scriptName: King
     position:
       serializedVersion: 2
-      x: 148
-      y: 0
-      width: 145
+      x: 167
+      y: -2
+      width: 112
       height: 125
   - scriptName: StartScript
     position:
@@ -27,3 +27,17 @@ MonoBehaviour:
       y: 0
       width: 108
       height: 125
+  - scriptName: Queen
+    position:
+      serializedVersion: 2
+      x: 319
+      y: -7
+      width: 142
+      height: 125
+  - scriptName: FlowerRoom
+    position:
+      serializedVersion: 2
+      x: 498
+      y: 5
+      width: 117
+      height: 101

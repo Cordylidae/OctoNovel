@@ -1,5 +1,6 @@
 # Start_Game
-Oh, I'm sleeping?[i]
+@showUI MyHeroUI
+{name}: Oh, I'm sleeping?[i] My name ...
 @input name summary: "Input your name!"
 @stop
 

@@ -166,6 +166,12 @@ MonoBehaviour:
     - name: ToastUI
       pathPrefix: UI
       guid: dd85ce99288c2f8488447fa511b1c0d6
+    - name: MapUI
+      pathPrefix: UI
+      guid: 278d1ed02b0d63d47aac37334ec2ced1
+    - name: MyHeroUI
+      pathPrefix: UI
+      guid: 115d887f606da034687790fc27208088
   - Id: Scripts
     Resources:
     - name: King
@@ -174,19 +180,25 @@ MonoBehaviour:
     - name: StartScript
       pathPrefix: Scripts
       guid: b0c75d91bcd93be40ab75887b5b06897
+    - name: Queen
+      pathPrefix: Scripts
+      guid: 0e44cea3533f9d04d85299d027609bba
+    - name: FlowerRoom
+      pathPrefix: Scripts
+      guid: 318e83c1347c1c043a50429e1f405932
   - Id: CharacterAvatars
     Resources:
     - name: k/Default
       pathPrefix: CharacterAvatars
-      guid: 2533d6fbfa266704798c5a3a6c41a3b5
-    - name: h/Default
+      guid: 41642c0e8b6980d4e8797f6cbc328c94
+    - name: q/Default
       pathPrefix: CharacterAvatars
-      guid: dbc762ea5a3f00f42adbb695a9722c4b
+      guid: cee45a5e2be78d345bdd38bb58f73ec1
   - Id: Characters/8c6585d2-05e2-498f-aebe-d80ce2e32b9c
     Resources:
     - name: King
       pathPrefix: Characters/k
-      guid: 2533d6fbfa266704798c5a3a6c41a3b5
+      guid: 41642c0e8b6980d4e8797f6cbc328c94
   - Id: Backgrounds/8399c7a4-e373-4a34-b666-f91f5ea52f92
     Resources:
     - name: Throne
@@ -199,3 +211,23 @@ MonoBehaviour:
       guid: fa15c88c980477146bdece0b166e1df1
   - Id: Characters/da646791-2e56-4bc7-8654-a132406c7dc6
     Resources: []
+  - Id: Backgrounds/8e7424c0-db6e-41ec-a1f2-5877b458043c
+    Resources:
+    - name: KingBedroom
+      pathPrefix: Backgrounds/KingBedroom
+      guid: 8336af89833951c4db2943457ddf8cbc
+  - Id: Backgrounds/ac4e5c63-05ac-4369-9d59-ea58e154cfeb
+    Resources:
+    - name: QueenWardrobe
+      pathPrefix: Backgrounds/QueenWardrobe
+      guid: b805f600095a7e94caf0dca8013c79f4
+  - Id: Backgrounds/43199eac-e13c-4d06-9e25-ba517cda1deb
+    Resources:
+    - name: LibraryRoom
+      pathPrefix: Backgrounds/LibraryRoom
+      guid: 2ac0f1e9407573a4fa250d093c910aef
+  - Id: Characters/f0924229-4367-44af-acce-8b784718a2b1
+    Resources:
+    - name: Queen
+      pathPrefix: Characters/q
+      guid: cee45a5e2be78d345bdd38bb58f73ec1

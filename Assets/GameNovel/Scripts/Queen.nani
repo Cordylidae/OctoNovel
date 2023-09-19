@@ -1,0 +1,13 @@
+# Queen
+@back QueenWardrobe id:QueenWardrobe
+@char q avatar:q/Default
+q: Hello sir {name}
+{name}: Hello my queen!
+q: Can you help me?) [i] Please, put jewelry on me.
+q: [i] Just mini game 
+@wait 0.5
+q: Thanks you my sir. take this gift from me. This is key of flower.
+{name}: I'll get the flower. My way to the library.
+@char q visible:false
+@goto FlowerRoom
+@stop

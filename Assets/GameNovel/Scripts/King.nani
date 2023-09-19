@@ -1,11 +1,12 @@
 # King
+@back KingBedroom id:KingBedroom
 @char k avatar:k/Default
-k: For the honnor![i] Sunrise wake upping us. [i]
+k: For the honor![i] Sunrise wake upping us. [i]
 I Have big dick.
 {name}: Incredible [i] I want to see!
-k: Sure?[skipInput]
-@choice "Show me" goto:Novel
-@choice Nevermind
+k: Sure? Maybe later[i],see ya!
+{name}: For the honor my king :)
+@char k visible:false
+{name}: i'm going to Queen.
+@goto Queen
 @stop
-k: See ya!
-@Adventure reset:false
