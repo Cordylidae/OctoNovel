@@ -1,0 +1,11 @@
+@if "mapStage==1"
+	@hideUI BedroomUI
+@endif
+@if "mapStage==2"
+	@hideUI WardrobeUI
+@endif
+@if "mapStage==3"
+	@hideUI LibraryUI
+@endif
+
+@goto Map

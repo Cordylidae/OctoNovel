@@ -1,9 +1,13 @@
 @hideAll
+@printer Dialogue
 @camera zoom:0 offset:0,0 roll:0 time:0
 @showUI WardrobeUI
 
 @set mapStage=2
+
+@if talkMode<3
 @set talkMode=0
+@endif
 
 @if "questFlowerStart && !questFlowerEnd"
 	@goto FlowerQuest.CheckState

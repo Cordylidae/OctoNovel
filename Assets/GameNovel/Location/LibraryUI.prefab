@@ -1,5 +1,95 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2561081852469813418
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9131985192444278735}
+  - component: {fileID: 8324429457081727946}
+  - component: {fileID: 8057706401063426580}
+  m_Layer: 5
+  m_Name: FlowerTrigger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &9131985192444278735
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2561081852469813418}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1158413662281226724}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &8324429457081727946
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2561081852469813418}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66dece27c8a24344b82b0fbdb69b0a55, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gObject: {fileID: 4797895007803525909}
+  nameVarible: haveTheFlower
+  reversed: 1
+--- !u!114 &8057706401063426580
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2561081852469813418}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eccf90b9270badd4981903249a04c3f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  customVariableName: haveTheFlower
+  onVariableValueChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  onFloatVariableValueChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  onIntVariableValueChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  onBoolVariableValueChanged:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8324429457081727946}
+        m_TargetAssemblyTypeName: GameNovel.SetGameObjectState, GameNovel
+        m_MethodName: SetState
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &3283654059104646603
 GameObject:
   m_ObjectHideFlags: 0
@@ -260,6 +350,7 @@ RectTransform:
   m_Children:
   - {fileID: 706005527736090145}
   - {fileID: 5134828735745378091}
+  - {fileID: 9131985192444278735}
   m_Father: {fileID: 6306036015961478113}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -438,7 +529,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1771915321726534815}
         m_TargetAssemblyTypeName: GameNovel.SetInvisble, GameNovel
-        m_MethodName: SetButtonState
+        m_MethodName: SetMapState
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -702,8 +793,8 @@ GameObject:
   m_Component:
   - component: {fileID: 5134828735745378091}
   - component: {fileID: 9106272131100470389}
-  - component: {fileID: 5580076031634315538}
   - component: {fileID: 3786832386328672400}
+  - component: {fileID: 5580076031634315538}
   - component: {fileID: 5596411656397869824}
   m_Layer: 5
   m_Name: Locker
@@ -744,7 +835,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eccf90b9270badd4981903249a04c3f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customVariableName: openCage
+  customVariableName: haveTheFlover
   onVariableValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -757,9 +848,9 @@ MonoBehaviour:
   onBoolVariableValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 5596411656397869824}
-        m_TargetAssemblyTypeName: GameNovel.SetInvisble, GameNovel
-        m_MethodName: SetButtonState
+      - m_Target: {fileID: 3786832386328672400}
+        m_TargetAssemblyTypeName: GameNovel.SetOpenCage, GameNovel
+        m_MethodName: SetCageState
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -769,18 +860,24 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 4797895007803525909}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+--- !u!114 &3786832386328672400
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7043890939150703117}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df5d712ae6d6a654d8bba51b777a1c07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cageSprite:
+  - {fileID: 122853786, guid: e2c289d11f2227447a9baca8c778264a, type: 3}
+  - {fileID: -418810472, guid: e2c289d11f2227447a9baca8c778264a, type: 3}
+  image: {fileID: 3713913479669736269}
+  button: {fileID: 8258026591023712251}
+  nameVaribleCage: openCage
 --- !u!114 &5580076031634315538
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -803,9 +900,9 @@ MonoBehaviour:
   onIntVariableValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 3786832386328672400}
-        m_TargetAssemblyTypeName: GameNovel.SetOpenCage, GameNovel
-        m_MethodName: SetCageState
+      - m_Target: {fileID: 5596411656397869824}
+        m_TargetAssemblyTypeName: GameNovel.SetInvisble, GameNovel
+        m_MethodName: SetButtonState
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -818,24 +915,6 @@ MonoBehaviour:
   onBoolVariableValueChanged:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &3786832386328672400
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7043890939150703117}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: df5d712ae6d6a654d8bba51b777a1c07, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cageSprite:
-  - {fileID: 122853786, guid: e2c289d11f2227447a9baca8c778264a, type: 3}
-  - {fileID: -418810472, guid: e2c289d11f2227447a9baca8c778264a, type: 3}
-  image: {fileID: 3713913479669736269}
-  button: {fileID: 8258026591023712251}
-  nameVaribleCage: openCage
 --- !u!114 &5596411656397869824
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -899,7 +978,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5975c9748a52c8d43b34c8d7c428cacd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scriptName: 
+  scriptName: BirdCage
   scriptText: '@stop
 
     @goto BirdCage
@@ -956,7 +1035,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5975c9748a52c8d43b34c8d7c428cacd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scriptName: 
+  scriptName: MapButton
   scriptText: '@hideUI LibraryUI
 
     @goto Map'

@@ -1,4 +1,5 @@
-#CheckState
+;--------------------------------------------------------------------
+# CheckState
 
 @if "questFlowerStart && !questFlower_part1_KingTalk && mapStage==1"
 @goto King.Quest_Flower_Part_1
@@ -8,16 +9,54 @@
 @goto Queen.Quest_Flower_Part_2
 @endif
 
+@if "questFlower_part3_FlowerTake && !questFlower_part4_YourDialogue && mapStage==2"
+@goto YourselfDialogue.Quest_Flower_Part_4
+@endif
+
+@if "questFlower_part4_YourDialogue && !questFlower_part5_Gift && mapStage==1"
+@goto King.Quest_Flower_Part_5
+@endif
+
+@if "questFlower_part5_Gift"
+@set questFlowerEnd=true
+@endif
+
 @goto .Back
 @stop
 
-#Back
-@if "mapStage==1"
-	@goto Bedroom.Continue
+;--------------------------------------------------------------------
+# Back
+@if mapStage==1
+@goto Bedroom.Continue
 @endif
-@if "mapStage==2"
-	@goto Wardrobe.Continue
+@if mapStage==2
+@goto Wardrobe.Continue
 @endif
-@if "mapStage==3"
-	@goto Library.Continue
+@if mapStage==3
+@goto Library.Continue
 @endif
+@stop
+
+;--------------------------------------------------------------------
+# Answer
+
+Take the gift[skipInput]
+@choice "Take Yourself the Rose" goto:.AnswerYourself
+@choice "Take King the Rose" goto:.AnswerKing
+@choice "Take Queen the Rose" goto:.AnswerQueen
+@stop
+
+# AnswerYourself
+@set kingSpeech=2
+@set queenSpeech=2
+@goto King.Continue_Quest_Flower_Part_5
+
+# AnswerKing
+@set kingSpeech=1
+@set queenSpeech=2
+@goto King.Continue_Quest_Flower_Part_5
+
+# AnswerQueen
+@set kingSpeech=2
+@set queenSpeech=1
+@goto King.Continue_Quest_Flower_Part_5

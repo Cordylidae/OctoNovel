@@ -2,6 +2,10 @@
 @hideUI WardrobeUI
 @hideUI LibraryUI
 
+@showUI MyHeroUI
+@bgm MainMusic volume:0.5
+@printer Dialogue
+
 {name}: Oh, I'm sleeping?[i] My name ...
 @input name summary:"Input your name!"
 @stop

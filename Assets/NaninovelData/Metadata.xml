@@ -395,6 +395,10 @@
         &lt;Type&gt;Scripts&lt;/Type&gt;
       &lt;/Resource&gt;
       &lt;Resource&gt;
+        &lt;Path&gt;MapButton&lt;/Path&gt;
+        &lt;Type&gt;Scripts&lt;/Type&gt;
+      &lt;/Resource&gt;
+      &lt;Resource&gt;
         &lt;Path&gt;k/Default&lt;/Path&gt;
         &lt;Type&gt;CharacterAvatars&lt;/Type&gt;
       &lt;/Resource&gt;
@@ -445,9 +449,7 @@
       &lt;/Constant&gt;
       &lt;Constant&gt;
         &lt;Name&gt;Labels/StartScript&lt;/Name&gt;
-        &lt;Values&gt;
-          &lt;string&gt;Start_Game&lt;/string&gt;
-        &lt;/Values&gt;
+        &lt;Values /&gt;
       &lt;/Constant&gt;
       &lt;Constant&gt;
         &lt;Name&gt;Labels/Queen&lt;/Name&gt;
@@ -496,7 +498,12 @@
         &lt;Values&gt;
           &lt;string&gt;OpenCage&lt;/string&gt;
           &lt;string&gt;NeedTheKey&lt;/string&gt;
+          &lt;string&gt;FlowerTook&lt;/string&gt;
         &lt;/Values&gt;
+      &lt;/Constant&gt;
+      &lt;Constant&gt;
+        &lt;Name&gt;Labels/MapButton&lt;/Name&gt;
+        &lt;Values /&gt;
       &lt;/Constant&gt;
     &lt;/Constants&gt;
     &lt;Variables&gt;
@@ -511,9 +518,7 @@
       &lt;string&gt;giveFlowerStage&lt;/string&gt;
       &lt;string&gt;haveTheKey&lt;/string&gt;
       &lt;string&gt;haveTheFlower&lt;/string&gt;
-      &lt;string&gt;kingTalk&lt;/string&gt;
-      &lt;string&gt;queenTalk&lt;/string&gt;
-      &lt;string&gt;openCage&lt;/string&gt;
+      &lt;string&gt;talkMode&lt;/string&gt;
       &lt;string&gt;mapStage&lt;/string&gt;
     &lt;/Variables&gt;
     &lt;Functions /&gt;

@@ -32,6 +32,22 @@ namespace GameNovel
             }
         }
 
+        public void SetMapState()
+        {
+            ICustomVariableManager variableManager = Engine.GetService<ICustomVariableManager>();
+            int state = Convert.ToInt32(variableManager.GetVariableValue(nameVaribleButton));
+
+            if (state == 0 || state == 3) button.interactable = true;
+            else
+            {
+                button.interactable = false;
+                Color dColor = Color.white;
+
+                if (state == 2) dColor.a = 0.0f;
+                SetDisabledColor(dColor);
+            }
+        }
+
         void SetDisabledColor(Color color)
         {
             ColorBlock cb = button.colors;

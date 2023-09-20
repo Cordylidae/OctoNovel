@@ -192,9 +192,6 @@ MonoBehaviour:
     - name: Queen
       pathPrefix: Scripts
       guid: 0e44cea3533f9d04d85299d027609bba
-    - name: FlowerQwest
-      pathPrefix: Scripts
-      guid: 318e83c1347c1c043a50429e1f405932
     - name: Map
       pathPrefix: Scripts
       guid: 319bb44f191b72b4b8a20b8add8bc997
@@ -213,6 +210,12 @@ MonoBehaviour:
     - name: BirdCage
       pathPrefix: Scripts
       guid: 356438ba914486941a0c03da678525ef
+    - name: MapButton
+      pathPrefix: Scripts
+      guid: 50c954e4d62df3d4cae3466c6cfe6f13
+    - name: YourselfDialogue
+      pathPrefix: Scripts
+      guid: bfc8a7cd06624fb49bae4e4c0bba0dcf
   - Id: CharacterAvatars
     Resources:
     - name: k/Default

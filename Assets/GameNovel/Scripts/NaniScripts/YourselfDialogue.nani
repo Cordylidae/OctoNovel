@@ -1,0 +1,6 @@
+# Quest_Flower_Part_4
+
+{name}: I'm a loser :(((.
+@set questFlower_part4_YourDialogue=true
+
+@goto Wardrobe

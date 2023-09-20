@@ -27,7 +27,9 @@ MonoBehaviour:
     value: false
   - name: questFlower_part3_FlowerTake
     value: false
-  - name: questFlower_part4_FlowerGift
+  - name: questFlower_part4_YourDialogue
+    value: false
+  - name: questFlower_part5_Gift
     value: false
   - name: giveFlowerStage
     value: 0
@@ -37,7 +39,5 @@ MonoBehaviour:
     value: false
   - name: talkMode
     value: 0
-  - name: openCage
-    value: false
   - name: mapStage
     value: 0

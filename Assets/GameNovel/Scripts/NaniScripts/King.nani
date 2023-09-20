@@ -1,6 +1,16 @@
-@goto .NextTime
+;------------------Start-------------------------
+@if "kingSpeech==0"
+	@goto .NextTime
+@endif
+@if "kingSpeech==1"
+	@goto .MyBoy
+@endif
+@if "kingSpeech==2"
+	@goto .DontTalk
+@endif
 @stop
 
+;------------------------------------------------
 # Quest_Flower_Part_1
 @set talkMode=2
 
@@ -8,6 +18,7 @@
 @hideUI BedroomUI
 @char k
 
+@sfx HelloThere fade:0.5 loop:false
 k: For the honor![i] Sunrise wake upping us. [i]
 I Have big dick.
 {name}: Incredible [i] I want to see!
@@ -21,9 +32,51 @@ k: Sure? Maybe later[i],see ya!
 @set questFlower_part1_KingTalk=true
 @goto Bedroom
 
+;------------------------------------------------
+# Quest_Flower_Part_5
+@set talkMode=2
+
+@back Bedroom id:Bedroom
+@hideUI BedroomUI
+@char k
+@char q
+
+@sfx HelloThere fade:0.5 loop:false
+k: Ou you see us. We there [i]
+q: yes we there my kingt.
+{name}: I glad too see you
+@goto FlowerQuest.Answer
+@stop
+
+# Continue_Quest_Flower_Part_5
+@set haveTheFlower=false
+@char q visible:false
+@char k visible:false
+@hide Bedroom
+
+@set questFlower_part5_Gift=true
+@goto Bedroom
+
+;------------------------------------------------
 # NextTime
 @set talkMode=1
 
 k: Next time. Find Queen, maybe in Wardrobe Room.
+
+@goto Bedroom
+
+;------------------------------------------------
+# MyBoy
+@set talkMode=1
+
+k: You my hero i know, I saw some things togniht.
+
+@goto Bedroom
+
+;------------------------------------------------
+# DontTalk
+@set talkMode=1
+
+k: I won't to talk with you.
 
 @goto Bedroom
