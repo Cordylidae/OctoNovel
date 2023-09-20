@@ -52,7 +52,7 @@ MonoBehaviour:
   scriptName: 
   scriptText: '@hideUI MapUI
 
-    @goto Queen'
+    @goto Wardrobe'
   playOnAwake: 0
   disableWaitInput: 0
 --- !u!1 &885872872708969318
@@ -970,7 +970,7 @@ MonoBehaviour:
   scriptName: 
   scriptText: '@hideUI MapUI
 
-    @goto King'
+    @goto Bedroom'
   playOnAwake: 0
   disableWaitInput: 0
 --- !u!1 &3780800858532175321
@@ -1253,7 +1253,7 @@ MonoBehaviour:
   scriptName: 
   scriptText: '@hideUI MapUI
 
-    @goto FlowerRoom'
+    @goto Library'
   playOnAwake: 0
   disableWaitInput: 0
 --- !u!1 &4625323744972688739

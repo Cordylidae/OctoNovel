@@ -50,9 +50,9 @@ MonoBehaviour:
   Metadata:
     ids:
     - MainBackground
-    - KingBedroom
-    - QueenWardrobe
-    - LibraryRoom
+    - Bedroom
+    - Wardrobe
+    - Library
     metas:
     - Implementation: Naninovel.SpriteBackground, Elringus.Naninovel.Runtime, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null

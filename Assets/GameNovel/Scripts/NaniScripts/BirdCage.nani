@@ -1,0 +1,22 @@
+@set talkMode=1
+@if "!haveTheKey"
+	@goto .NeedTheKey
+@endif
+
+{name}: I have a key![skipInput]
+@choice "Use the key" goto:.OpenCage
+@choice "I won't to use key" goto:Library
+@stop
+
+# OpenCage
+@set questFlower_part3_FlowerTake=true
+@set haveTheFlower=true
+@set openCage=true
+
+@goto Library
+
+# NeedTheKey
+@printer Dialogue
+{name}: I need the key![i]
+
+@goto Library

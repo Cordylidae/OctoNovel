@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 4d1e1d90ac93bf84297966579d1ce667
+guid: e2c289d11f2227447a9baca8c778264a
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -20,7 +20,7 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
-  isReadable: 0
+  isReadable: 1
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
@@ -141,13 +141,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: FlowerTexture
+      name: Birdcage_0
       rect:
         serializedVersion: 2
-        x: 373
-        y: 46
-        width: 147
-        height: 278
+        x: 15
+        y: 0
+        width: 240
+        height: 375
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -155,20 +155,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1d8ca710c3ee995488374209b4c66e45
-      internalID: -1660499542
+      spriteID: 349269a1f3fb8f24a8c9699705c50e09
+      internalID: 122853786
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FlowerItem
+      name: Birdcage_1
       rect:
         serializedVersion: 2
-        x: 439
-        y: 229
-        width: 80
-        height: 75
+        x: 282
+        y: 0
+        width: 240
+        height: 375
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -176,8 +176,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c21761746e6b9824997ed8e9189023cb
-      internalID: -185925618
+      spriteID: 870f3b7cc88383a4fa3f2b6f73bfa6e1
+      internalID: -418810472
       vertices: []
       indices: 
       edges: []
@@ -185,7 +185,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: f9e3923ab1c8db1409f726fd0d3c042b
+    spriteID: da72b9aa5c5a9364d8b9211bdfbcd791
     internalID: 0
     vertices: []
     indices: 
@@ -193,8 +193,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      FlowerTexture: -1660499542
-      FlowerItem: -185925618
+      Birdcage_1: -418810472
+      Birdcage_0: 122853786
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

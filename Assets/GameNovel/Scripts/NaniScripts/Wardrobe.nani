@@ -1,8 +1,8 @@
 @hideAll
 @camera zoom:0 offset:0,0 roll:0 time:0
-@showUI BedroomUI
+@showUI WardrobeUI
 
-@set mapStage=1
+@set mapStage=2
 @set talkMode=0
 
 @if "questFlowerStart && !questFlowerEnd"

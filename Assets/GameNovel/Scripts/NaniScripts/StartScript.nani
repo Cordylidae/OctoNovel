@@ -1,6 +1,7 @@
-# Start_Game
-@Hello
-@showUI MyHeroUI
+@hideUI BedroomUI
+@hideUI WardrobeUI
+@hideUI LibraryUI
+
 {name}: Oh, I'm sleeping?[i] My name ...
 @input name summary:"Input your name!"
 @stop
@@ -10,5 +11,7 @@
 @char k
 {name}: Goodmorning my King!!!.
 k: Hello my knight, sir {name}.
-@set playerInputName=true
+
+@set playerInput=true
+@set questFlowerStart=true
 @goto Bedroom

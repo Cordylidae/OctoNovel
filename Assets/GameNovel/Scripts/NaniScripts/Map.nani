@@ -1,2 +1,5 @@
-# Map
+@hideAll
+@camera zoom:0 offset:0,0 roll:0 time:0
+@hideUI BedroomUI
+@showUI MapUI
 @stop

@@ -15,8 +15,8 @@ MonoBehaviour:
   PredefinedVariables:
   - name: name
     value: '"Unknowed"'
-  - name: playerInputName
-    value: false
+  - name: playerInput
+    value: true
   - name: questFlowerStart
     value: false
   - name: questFlowerEnd
@@ -29,15 +29,15 @@ MonoBehaviour:
     value: false
   - name: questFlower_part4_FlowerGift
     value: false
-  - name: giveFlower_Queen
-    value: false
-  - name: giveFlower_King
-    value: false
-  - name: giveFlower_Yourself
-    value: false
+  - name: giveFlowerStage
+    value: 0
   - name: haveTheKey
     value: false
   - name: haveTheFlower
     value: false
-  - name: kingTalk
+  - name: talkMode
+    value: 0
+  - name: openCage
     value: false
+  - name: mapStage
+    value: 0

@@ -7,8 +7,7 @@ namespace GameNovel
     public class StartGame : Command
     {
         public StringParameter Name;
-
-        public override UniTask ExecuteAsync(AsyncToken asyncToken = default)
+        public override async UniTask ExecuteAsync(AsyncToken asyncToken = default)
         {
             if (Assigned(Name))
             {
@@ -19,7 +18,7 @@ namespace GameNovel
                 Debug.Log("Fuck this bull!");
             }
 
-            return UniTask.CompletedTask;
+            await UniTask.CompletedTask;
         }
     }
 }

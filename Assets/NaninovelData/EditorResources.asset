@@ -175,6 +175,12 @@ MonoBehaviour:
     - name: BedroomUI
       pathPrefix: UI
       guid: 7845d1dbcdd8ee441a74de81760ecccc
+    - name: WardrobeUI
+      pathPrefix: UI
+      guid: 24b78fa347577aa40887788c740b2aa4
+    - name: LibraryUI
+      pathPrefix: UI
+      guid: e3103889b28fb50448e0d628c54a04ae
   - Id: Scripts
     Resources:
     - name: King
@@ -186,7 +192,7 @@ MonoBehaviour:
     - name: Queen
       pathPrefix: Scripts
       guid: 0e44cea3533f9d04d85299d027609bba
-    - name: FlowerRoom
+    - name: FlowerQwest
       pathPrefix: Scripts
       guid: 318e83c1347c1c043a50429e1f405932
     - name: Map
@@ -195,6 +201,18 @@ MonoBehaviour:
     - name: Bedroom
       pathPrefix: Scripts
       guid: 20af16f8db1e8bc479bf40939cb301ee
+    - name: Wardrobe
+      pathPrefix: Scripts
+      guid: ee98ce423a2c2c34fa93c8d155aff4b1
+    - name: Library
+      pathPrefix: Scripts
+      guid: 821b2c696db8e984087cbb1f5851c178
+    - name: FlowerQuest
+      pathPrefix: Scripts
+      guid: 721a5c1183b11f246a157c580ed8340d
+    - name: BirdCage
+      pathPrefix: Scripts
+      guid: 356438ba914486941a0c03da678525ef
   - Id: CharacterAvatars
     Resources:
     - name: k/Default
@@ -222,18 +240,18 @@ MonoBehaviour:
     Resources: []
   - Id: Backgrounds/8e7424c0-db6e-41ec-a1f2-5877b458043c
     Resources:
-    - name: KingBedroom
-      pathPrefix: Backgrounds/KingBedroom
+    - name: Bedroom
+      pathPrefix: Backgrounds/Bedroom
       guid: 8336af89833951c4db2943457ddf8cbc
   - Id: Backgrounds/ac4e5c63-05ac-4369-9d59-ea58e154cfeb
     Resources:
-    - name: QueenWardrobe
-      pathPrefix: Backgrounds/QueenWardrobe
+    - name: Wardrobe
+      pathPrefix: Backgrounds/Wardrobe
       guid: b805f600095a7e94caf0dca8013c79f4
   - Id: Backgrounds/43199eac-e13c-4d06-9e25-ba517cda1deb
     Resources:
-    - name: LibraryRoom
-      pathPrefix: Backgrounds/LibraryRoom
+    - name: Library
+      pathPrefix: Backgrounds/Library
       guid: 2ac0f1e9407573a4fa250d093c910aef
   - Id: Characters/f0924229-4367-44af-acce-8b784718a2b1
     Resources:
@@ -245,3 +263,5 @@ MonoBehaviour:
     - name: Tooltip
       pathPrefix: TextPrinters
       guid: e0c80c133703b174eb5298cae0ed2de2
+  - Id: Unlockables
+    Resources: []

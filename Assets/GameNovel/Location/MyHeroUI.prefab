@@ -348,7 +348,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eccf90b9270badd4981903249a04c3f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customVariableName: playerInputName
+  customVariableName: playerInput
   onVariableValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -463,10 +463,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scriptName: 
-  scriptText: '@goto Map
-
-    @hideAll
-
-    @showUI MapUI'
+  scriptText: '@goto Map'
   playOnAwake: 0
   disableWaitInput: 0

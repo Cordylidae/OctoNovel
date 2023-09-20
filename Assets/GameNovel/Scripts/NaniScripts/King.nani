@@ -1,5 +1,8 @@
-# King
-@set kingTalk=true
+@goto .NextTime
+@stop
+
+# Quest_Flower_Part_1
+@set talkMode=2
 
 @back Bedroom id:Bedroom
 @hideUI BedroomUI
@@ -14,6 +17,13 @@ k: Sure? Maybe later[i],see ya!
 
 @char k visible:false
 @hide Bedroom
-@set kingTalk=false
+
+@set questFlower_part1_KingTalk=true
+@goto Bedroom
+
+# NextTime
+@set talkMode=1
+
+k: Next time. Find Queen, maybe in Wardrobe Room.
 
 @goto Bedroom
