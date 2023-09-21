@@ -1253,7 +1253,9 @@ MonoBehaviour:
   scriptName: 
   scriptText: '@hideUI MapUI
 
-    @goto Library'
+    @goto Library
+
+    @endif'
   playOnAwake: 0
   disableWaitInput: 0
 --- !u!1 &4625323744972688739
