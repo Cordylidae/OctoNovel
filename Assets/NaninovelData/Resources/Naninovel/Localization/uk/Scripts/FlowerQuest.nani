@@ -1,0 +1,13 @@
+; English <en> to Ukrainian <uk> localization document for `FlowerQuest` naninovel script
+
+# e6a4cb76
+; Take the gift[skipInput]
+
+# 8b3da0dc
+; @choice "Take Yourself the Rose" goto:.AnswerYourself
+
+# 62e150a8
+; @choice "Take King the Rose" goto:.AnswerKing
+
+# 86755725
+; @choice "Take Queen the Rose" goto:.AnswerQueen

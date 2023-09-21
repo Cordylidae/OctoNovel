@@ -1,0 +1,30 @@
+{
+    "name": "DTTDefenition",
+    "rootNamespace": "",
+    "references": [
+        "GUID:776ff5298ffab1b49a3e95d86ca4e2e0",
+        "GUID:a430c258598825f4a9bd17fda9c6dc4e",
+        "GUID:30d4d625b0cc0c1438d192a7f3e683ca",
+        "GUID:d30190c13c15a7746bbd5fe3945d41c1",
+        "GUID:9a04fc0cd4bcc8949aa87b1c87357911",
+        "GUID:59ba88a9e30dcfd42b8d45f1d2e5e99b",
+        "GUID:fd74e4487757e9e42bfc4f8d6ae45470",
+        "GUID:035390020c303f446a7b7076b8e47973",
+        "GUID:65e70c320e6941f4bb078d1066cdf990",
+        "GUID:40110409d6f32d94c8a49de52995a651",
+        "GUID:b5e078f64d95bba4a8ba03b5b4940114",
+        "GUID:42c715f93f2a87549bf83c68b0c29dd2",
+        "GUID:869614d99eb3cff4396903b9b0788659"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [
+        ""
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

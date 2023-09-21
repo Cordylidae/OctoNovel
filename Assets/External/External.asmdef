@@ -1,0 +1,19 @@
+{
+    "name": "External",
+    "rootNamespace": "",
+    "references": [
+        "GUID:37072860dee1075439bd237459f178a3",
+        "GUID:08ab4e9b32bfd234da6fed8acbd71909",
+        "GUID:519e3942c5f1829458201ac1b0dbe8a6",
+        "GUID:299f0e1d2253c7f42906a1f24d2d2eb0"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

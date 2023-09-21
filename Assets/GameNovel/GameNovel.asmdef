@@ -1,0 +1,28 @@
+{
+    "name": "GameNovel",
+    "rootNamespace": "GameNovel",
+    "references": [
+        "GUID:30d4d625b0cc0c1438d192a7f3e683ca",
+        "GUID:59ba88a9e30dcfd42b8d45f1d2e5e99b",
+        "GUID:40110409d6f32d94c8a49de52995a651",
+        "GUID:42c715f93f2a87549bf83c68b0c29dd2",
+        "GUID:1711cb30f577ba1498364a78a6873853",
+        "GUID:299f0e1d2253c7f42906a1f24d2d2eb0",
+        "GUID:08ab4e9b32bfd234da6fed8acbd71909",
+        "GUID:519e3942c5f1829458201ac1b0dbe8a6",
+        "GUID:560b04d1a97f54a4e82edc0cbbb69285",
+        "GUID:71799519d12379b49b6b53aea974bea5",
+        "GUID:f51ebe6a0ceec4240a699833d6309b23"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [
+        ""
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

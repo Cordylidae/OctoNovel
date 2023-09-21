@@ -1,0 +1,22 @@
+@hideUI BedroomUI
+@hideUI WardrobeUI
+@hideUI LibraryUI
+
+@bgm MainMusic volume:0.5
+@printer Dialogue
+
+{name}: Oh, I'm sleeping?[i] My name ...
+@input name summary:"Input your name!"
+@stop
+
+{name}: My name is {name}.
+
+@char k
+{name}: Goodmorning my King!!!.
+k: Hello my knight,[i] Sir {name} I belive in you.
+
+@set playerInput=true
+@showUI MyHeroUI
+@set questFlowerStart=true
+
+@goto Bedroom

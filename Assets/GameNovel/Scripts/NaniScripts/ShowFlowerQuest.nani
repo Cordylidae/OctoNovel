@@ -1,0 +1,42 @@
+@if "!questFlowerStart || questFlowerEnd"
+	@goto FlowerQuest.Back
+@endif
+	
+@if "questFlower_part1_KingTalk && !questFlower_part2_QueenTalk"
+	@goto .FindQueen
+@endif
+
+@if "questFlower_part2_QueenTalk && !questFlower_part3_FlowerTake"
+	@goto .TakeFlower
+@endif
+
+@if "questFlower_part3_FlowerTake && !questFlower_part4_YourDialogue"
+	@goto .StayAlone
+@endif
+
+@if "questFlower_part4_YourDialogue && !questFlower_part5_Gift"
+	@goto .Gift
+@endif
+
+@goto FlowerQuest.Back
+@stop
+
+;--------------------------------------------------------------------
+# FindQueen
+@toast "Maybe she in wardrobe?"
+@goto FlowerQuest.Back
+
+;--------------------------------------------------------------------
+# TakeFlower
+@toast "Maybe rose in cage?"
+@goto FlowerQuest.Back
+
+;--------------------------------------------------------------------
+# StayAlone
+@toast "My brain, me need stay alone at short time"
+@goto FlowerQuest.Back
+
+;--------------------------------------------------------------------
+# Gift
+@toast "To be King? or To be Queen? with flower!"
+@goto FlowerQuest.Back

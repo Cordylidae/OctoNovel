@@ -1,0 +1,35 @@
+@set talkMode=1
+
+@if "questFlower_part3_FlowerTake"
+	@goto .FlowerTook
+@endif
+
+@if "!haveTheKey"
+	@goto .NeedTheKey
+@endif
+
+{name}: I have a key![skipInput]
+@choice "Use the key" goto:.OpenCage
+@choice "I won't to use key" goto:Library
+@stop
+
+# OpenCage
+@sfx OpenCage fade:0.5 loop:false
+@set questFlower_part3_FlowerTake=true
+@set haveTheFlower=true
+@set haveTheKey=false
+@set talkMode=3
+
+{name}: Ops key, is broken[i], but i have a Rose!
+
+@goto Library
+
+# NeedTheKey
+{name}: I need the key![i]
+
+@goto Library
+
+# FlowerTook
+{name}: I took all from there![i]
+
+@goto Library
