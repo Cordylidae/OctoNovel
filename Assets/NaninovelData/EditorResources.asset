@@ -181,6 +181,9 @@ MonoBehaviour:
     - name: LibraryUI
       pathPrefix: UI
       guid: e3103889b28fb50448e0d628c54a04ae
+    - name: MiniGameUI
+      pathPrefix: UI
+      guid: dffb8c96644718645873a7eb098b8fbe
   - Id: Scripts
     Resources:
     - name: King
@@ -268,3 +271,14 @@ MonoBehaviour:
       guid: e0c80c133703b174eb5298cae0ed2de2
   - Id: Unlockables
     Resources: []
+  - Id: Audio
+    Resources:
+    - name: MainMusic
+      pathPrefix: Audio
+      guid: 13bfb86d1f5c88140a1b546d4d1b04cf
+    - name: OpenCage
+      pathPrefix: Audio
+      guid: 64d92a1062db7a24cb0a3f234edf618b
+    - name: HelloThere
+      pathPrefix: Audio
+      guid: 8c1cc7682d044fc4e97a672315e725be

@@ -1,12 +1,13 @@
 using Naninovel;
 using System;
+using System.Collections.Generic;
 using UnityEngine;
 
 namespace GameNovel
 {
     public class SetGameObjectState : MonoBehaviour
     {
-        [SerializeField] private GameObject gObject;
+        [SerializeField] private List<GameObject> gObject;
         [SerializeField] private string nameVarible;
         [SerializeField] private bool reversed;
 
@@ -22,11 +23,13 @@ namespace GameNovel
 
             if (state ^ reversed)
             {
-                gObject.SetActive(true);
+                foreach(GameObject go in gObject)
+                    go.SetActive(true);
             }
             else
             {
-                gObject.SetActive(false);
+                foreach (GameObject go in gObject)
+                    go.SetActive(false);
             }
         }
     }

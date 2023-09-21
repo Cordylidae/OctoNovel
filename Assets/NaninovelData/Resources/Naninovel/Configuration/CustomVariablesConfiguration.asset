@@ -41,3 +41,11 @@ MonoBehaviour:
     value: 0
   - name: mapStage
     value: 0
+  - name: kingSpeech
+    value: 0
+  - name: queenSpeech
+    value: 0
+  - name: miniGameStage
+    value: false
+  - name: hide_MiniGame
+    value: false

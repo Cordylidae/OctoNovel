@@ -87,7 +87,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66dece27c8a24344b82b0fbdb69b0a55, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gObject: {fileID: 6747174495085173547}
+  gObject:
+  - {fileID: 6747174495085173547}
   nameVarible: haveTheKey
   reversed: 0
 --- !u!1 &5794753356842999397
@@ -177,7 +178,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66dece27c8a24344b82b0fbdb69b0a55, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gObject: {fileID: 6954914982002789700}
+  gObject:
+  - {fileID: 6954914982002789700}
   nameVarible: haveTheFlower
   reversed: 0
 --- !u!1 &6306036015961478139

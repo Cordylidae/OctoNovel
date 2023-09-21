@@ -50,7 +50,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66dece27c8a24344b82b0fbdb69b0a55, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gObject: {fileID: 4797895007803525909}
+  gObject:
+  - {fileID: 4797895007803525909}
   nameVarible: haveTheFlower
   reversed: 1
 --- !u!114 &8057706401063426580
