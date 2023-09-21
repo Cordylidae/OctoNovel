@@ -13,7 +13,7 @@
 
 @char k
 {name}: Goodmorning my King!!!.
-k: Hello my knight, sir {name}.
+k: Hello my knight,[i] Sir {name} I belive in you.
 
 @set playerInput=true
 @showUI MyHeroUI

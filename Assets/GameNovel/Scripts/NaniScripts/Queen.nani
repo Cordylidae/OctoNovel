@@ -1,16 +1,16 @@
-;------------------Start-------------------------
-@if "queenSpeech==0"
-	@goto .NextTime
+; ------------------Start-------------------------
+@if queenSpeech==0
+@goto .NextTime
 @endif
-@if "queenSpeech==1"
-	@goto .MyBoy
+@if queenSpeech==1
+@goto .MyBoy
 @endif
-@if "queenSpeech==2"
-	@goto .DontTalk
+@if queenSpeech==2
+@goto .DontTalk
 @endif
 @stop
 
-;------------------------------------------------
+; ------------------------------------------------
 # Quest_Flower_Part_2
 @set talkMode=2
 
@@ -18,19 +18,20 @@
 @hideUI WardrobeUI
 @char q
 
-@sfx HelloThere fade:0.5 loop:false
-q: Hello sir {name}
+@sfx HelloThere loop:false fade:0.5
+q: Hello Sir {name}
 {name}: Hello my queen!
 q: Can you help me?) [i] Please, put jewelry on me.
 
+{name}: Of course!
 @set miniGameStage=true
 @showUI MiniGameUI
-{name}: Seams Easy[skipInput]
+{name}: Seams easy ")[skipInput]
 @wait 30
 @set hide_MiniGame=false
 @hideUI MiniGameUI
 
-q: Thanks you my sir. take this gift from me. This is key of flower.
+q: Thanks you my sir. Take this gift from me. This is key from my old birdcage.
 {name}: I'll get the flower. My way to the library.
 
 @char q visible:false
@@ -40,15 +41,15 @@ q: Thanks you my sir. take this gift from me. This is key of flower.
 @set haveTheKey=true
 @goto Wardrobe
 
-;------------------------------------------------
+; ------------------------------------------------
 # NextTime
 @set talkMode=1
 
-q: Next time. Find Flower use the key, maybe in Library Room.
+q: Next time. You have a gift for me? I'm busy at this moment.
 
 @goto Wardrobe
 
-;------------------------------------------------
+; ------------------------------------------------
 # MyBoy
 @set talkMode=1
 
@@ -56,7 +57,7 @@ q: I've got a special outfit for you, so come over tonight and try it on.
 
 @goto Wardrobe
 
-;------------------------------------------------
+; ------------------------------------------------
 # DontTalk
 @set talkMode=1
 

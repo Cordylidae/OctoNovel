@@ -285,3 +285,5 @@ MonoBehaviour:
     - name: HelloThere
       pathPrefix: Audio
       guid: 8c1cc7682d044fc4e97a672315e725be
+  - Id: Characters/7a121315-cc94-4440-a086-44f7342c6a07
+    Resources: []

@@ -1,16 +1,16 @@
-;------------------Start-------------------------
-@if "kingSpeech==0"
-	@goto .NextTime
+; ------------------Start-------------------------
+@if kingSpeech==0
+@goto .NextTime
 @endif
-@if "kingSpeech==1"
-	@goto .MyBoy
+@if kingSpeech==1
+@goto .MyBoy
 @endif
-@if "kingSpeech==2"
-	@goto .DontTalk
+@if kingSpeech==2
+@goto .DontTalk
 @endif
 @stop
 
-;------------------------------------------------
+; ------------------------------------------------
 # Quest_Flower_Part_1
 @set talkMode=2
 
@@ -18,21 +18,22 @@
 @hideUI BedroomUI
 @char k
 
-@sfx HelloThere fade:0.5 loop:false
+@sfx HelloThere loop:false fade:0.5
 k: For the honor![i] Sunrise wake upping us. [i]
-I Have big dick.
-{name}: Incredible [i] I want to see!
-k: Sure? Maybe later[i],see ya!
+k: I'm in a great mood. I have big P-O-W-E-R!
+{name}: Incredible, [i] I want to see!
+k: Sure? Maybe later[i]. Me need Rose Of Truth for charge full P-O-W-E-R!
 {name}: For the honor my king :)
-{name}: I'm going to Queen.
+{name}: I'm bring this amazing flower to you, my King.
 
+k: see ya ;)
 @char k visible:false
 @hide Bedroom
 
 @set questFlower_part1_KingTalk=true
 @goto Bedroom
 
-;------------------------------------------------
+; ------------------------------------------------
 # Quest_Flower_Part_5
 @set talkMode=2
 
@@ -41,10 +42,11 @@ k: Sure? Maybe later[i],see ya!
 @char k
 @char q
 
-@sfx HelloThere fade:0.5 loop:false
+@sfx HelloThere loop:false fade:0.5
 k: Ou you see us. We there [i]
-q: yes we there my kingt.
-{name}: I glad too see you
+q: We so long waiting you.
+{name}: I have the Rose Og Truth. [i] But I don't know, who will gifted!
+k: Make up your mind! Make the right decision!
 @goto FlowerQuest.Answer
 @stop
 
@@ -57,23 +59,23 @@ q: yes we there my kingt.
 @set questFlower_part5_Gift=true
 @goto Bedroom
 
-;------------------------------------------------
+; ------------------------------------------------
 # NextTime
 @set talkMode=1
 
-k: Next time. Find Queen, maybe in Wardrobe Room.
+k: Next time. I need make some kings things, at morning.
 
 @goto Bedroom
 
-;------------------------------------------------
+; ------------------------------------------------
 # MyBoy
 @set talkMode=1
 
-k: You my hero i know, I saw some things togniht.
+k: You my hero i know, I will show some things togniht.
 
 @goto Bedroom
 
-;------------------------------------------------
+; ------------------------------------------------
 # DontTalk
 @set talkMode=1
 
