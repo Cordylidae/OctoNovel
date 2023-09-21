@@ -219,6 +219,9 @@ MonoBehaviour:
     - name: YourselfDialogue
       pathPrefix: Scripts
       guid: bfc8a7cd06624fb49bae4e4c0bba0dcf
+    - name: ShowFlowerQuest
+      pathPrefix: Scripts
+      guid: 37d80deaa2738c14090a34c0f86ebcc5
   - Id: CharacterAvatars
     Resources:
     - name: k/Default

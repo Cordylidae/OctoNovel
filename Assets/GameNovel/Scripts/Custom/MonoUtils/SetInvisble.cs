@@ -18,8 +18,7 @@ namespace GameNovel
 
         public void SetButtonState()
         {
-            ICustomVariableManager variableManager = Engine.GetService<ICustomVariableManager>();
-            int state = Convert.ToInt32(variableManager.GetVariableValue(nameVaribleButton));
+            int state = State();
 
             if (state == 0) button.interactable = true;
             else
@@ -34,8 +33,7 @@ namespace GameNovel
 
         public void SetMapState()
         {
-            ICustomVariableManager variableManager = Engine.GetService<ICustomVariableManager>();
-            int state = Convert.ToInt32(variableManager.GetVariableValue(nameVaribleButton));
+            int state = State();
 
             if (state == 0 || state == 3) button.interactable = true;
             else
@@ -46,6 +44,23 @@ namespace GameNovel
                 if (state == 2) dColor.a = 0.0f;
                 SetDisabledColor(dColor);
             }
+        }
+
+        public void SetQuestState()
+        {
+            int state = State();
+
+            if (state == 0 || state == 3) button.interactable = true;
+            else
+            {
+                button.interactable = false;
+            }
+        }
+
+        int State()
+        {
+            ICustomVariableManager variableManager = Engine.GetService<ICustomVariableManager>();
+            return Convert.ToInt32(variableManager.GetVariableValue(nameVaribleButton));
         }
 
         void SetDisabledColor(Color color)

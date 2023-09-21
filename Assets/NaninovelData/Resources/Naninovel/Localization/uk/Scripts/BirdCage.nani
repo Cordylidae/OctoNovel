@@ -1,0 +1,19 @@
+; English <en> to Ukrainian <uk> localization document for `BirdCage` naninovel script
+
+# 7588bc42
+; {name}: I have a key![skipInput]
+
+# 6fa917d6
+; @choice "Use the key" goto:.OpenCage
+
+# fd74348f
+; @choice "I won't to use key" goto:Library
+
+# 3c3bc5c1
+; {name}: Ops key, is broken[i], but i have a Rose!
+
+# 3a5d10ed
+; {name}: I need the key![i]
+
+# 57b32087
+; {name}: I took all from there![i]

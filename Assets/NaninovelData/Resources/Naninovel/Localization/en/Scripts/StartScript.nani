@@ -1,0 +1,16 @@
+; English <en> to English <en> localization document for `StartScript` naninovel script
+
+# 94c96bf5
+; {name}: Oh, I'm sleeping?[i] My name ...
+
+# 90028df5
+; @input name summary:"Input your name!"
+
+# 53cd3a6d
+; {name}: My name is {name}.
+
+# 1adaca5b
+; {name}: Goodmorning my King!!!.
+
+# b6033aa9
+; k: Hello my knight, sir {name}.

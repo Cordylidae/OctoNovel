@@ -1,0 +1,28 @@
+; English <en> to Ukrainian <uk> localization document for `Queen` naninovel script
+
+# f6283b9
+; q: Hello sir {name}
+
+# 424ec7fc
+; {name}: Hello my queen!
+
+# efe7dd51
+; q: Can you help me?) [i] Please, put jewelry on me.
+
+# 28257f2
+; {name}: Seams Easy[skipInput]
+
+# d86c0e8a
+; q: Thanks you my sir. take this gift from me. This is key of flower.
+
+# bac1dd68
+; {name}: I'll get the flower. My way to the library.
+
+# 92cf7d6f
+; q: Next time. Find Flower use the key, maybe in Library Room.
+
+# 39ff7b4d
+; q: I've got a special outfit for you, so come over tonight and try it on.
+
+# 9351f9f3
+; q: I won't to talk with you.

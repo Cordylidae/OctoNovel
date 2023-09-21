@@ -2,7 +2,6 @@
 @hideUI WardrobeUI
 @hideUI LibraryUI
 
-@showUI MyHeroUI
 @bgm MainMusic volume:0.5
 @printer Dialogue
 
@@ -17,5 +16,7 @@
 k: Hello my knight, sir {name}.
 
 @set playerInput=true
+@showUI MyHeroUI
 @set questFlowerStart=true
+
 @goto Bedroom

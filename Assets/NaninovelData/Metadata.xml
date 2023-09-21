@@ -578,6 +578,7 @@
       &lt;string&gt;kingSpeech&lt;/string&gt;
       &lt;string&gt;queenSpeech&lt;/string&gt;
       &lt;string&gt;miniGameStage&lt;/string&gt;
+      &lt;string&gt;hide_MiniGame&lt;/string&gt;
     &lt;/Variables&gt;
     &lt;Functions /&gt;
   &lt;/Metadata&gt;
